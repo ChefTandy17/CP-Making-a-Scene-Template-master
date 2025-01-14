@@ -6,7 +6,7 @@ class Play extends Phaser.Scene{
 
     init(stats) {
         console.log('Play: init')
-        this.HP = stats.HP,
+        this.HP = stats.HP
         this.EXP = stats.EXP
     }
 
